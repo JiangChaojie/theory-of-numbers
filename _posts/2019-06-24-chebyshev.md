@@ -28,3 +28,6 @@ title: chebyshev 不等式
    $$
    这里 $p_n$ 是第 n 个素数。
 
+
+
+{{site.math}}
