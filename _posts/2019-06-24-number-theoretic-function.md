@@ -37,7 +37,20 @@ title: 数论函数
    0,2\mid d.
    \end{cases}
    $$
-    
+
+3. 设 $n\in N,\sigma(n)$ 表示 n 的所有正除数之和，证明：$\sigma(n)$ 是积性函数，当 $n>1$ 时
+   $$
+   \sigma(n)=\prod\limits_{j=1}^r \frac{p_j^{\alpha_j+1}-1}{p_j-1}
+   $$
+   $\sigma(n)$ 称为除数和函数。
+
+   tips：利用 $n=p_1^{\alpha_1}\cdots p_r^{\alpha_r}$ 替代，利用组合数求和即可。
+
+4. 设 n 是正整数，求 $\sum\limits_{d\mid n} \frac 1 d$
+
+   $\sum\limits_{d \mid n}\frac 1 d=\sum\limits_{d \mid n}\frac 1 {(n/d)}=\frac{1}{n}\sum\limits_{d\mid n}d=\frac 1 n \sigma(n)$ 
+
+   这里 $\sigma(n)$ 的求法看例子 3。
 
 ## 背景知识
 
@@ -67,9 +80,7 @@ title: 数论函数
 
    $f(1)=1$ 及 $f(n)=f^{\alpha_1}(p_1)\cdots f^{\alpha_r}(p_r)$
 
-   
-
-   
+5. 设 $f(n)$ 是不恒为零的积性函数，那么 $F(n)=\sum\limits_{d \mid n}f(d)$ 也是积性函数。
 
 
 
