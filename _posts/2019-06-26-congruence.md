@@ -24,7 +24,7 @@ title: 同余
 
 1. 同余
 
-   $a \equiv b(mod \ m)$ ，也就是 a-b=km
+   $a \equiv b(mod \ m)$ ，也就是 a-b=km，**b 是 a 对模 m 的剩余** 。
 
 2. 同余的充要条件是最小非负余数相等。
 
