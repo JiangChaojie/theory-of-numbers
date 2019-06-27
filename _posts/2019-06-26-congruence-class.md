@@ -83,3 +83,6 @@ title: 同余类与剩余系
 
     $x=x^{(1)} + m_1x^{(2)} + m_1m_2x^{(3)}+\cdots+m_1\cdots m_{k-1}x^{(k)}$ 是 模 m 的剩余系。 
 
+
+
+{{site.math}}
