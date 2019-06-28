@@ -8,7 +8,7 @@ title: mobius 变换及其反转公式
 
    证：题目大致意思是进行两次 mobius 变换。那么第一次 mobius 变换是 $F_1(n)=\sum\limits_{d\mid n}f(d)$ 。
 
-   第二次 mobius 变换就是 $F_2(m) = \sum\limits_{n|m}F_1(n)=\sum\limits_{n\mid m}\sum\limits_{d \mid n}f(d)$ ， 交换求和号得到
+   第二次 mobius 变换就是 $F_2(m) = \sum\limits_{n\mid m}F_1(n)=\sum\limits_{n\mid m}\sum\limits_{d \mid n}f(d)$ ， 交换求和号得到
 
    $F_2(m)=\sum\limits_{d\mid m}(\sum\limits_{n\mid m}f(d))$ ，由于 $n\ge d$ ，括号内可化为 $f(d)\tau(m/d)$ ，得证。
 
