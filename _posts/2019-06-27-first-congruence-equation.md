@@ -40,3 +40,7 @@ $3x\equiv2(mod \ 8)$
    $x\equiv x_0+\frac m {(a,m)} t(mod \ m)$
 
    $t=0,\cdots,(a,m)-1$
+
+
+
+{{site.math}}
