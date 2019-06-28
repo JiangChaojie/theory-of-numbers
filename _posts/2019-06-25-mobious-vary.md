@@ -2,7 +2,23 @@
 title: mobius 变换及其反转公式
 ---
 
-## 例子
+## 作业
+
+1. 证明：$f(n)$ 的 $M\ddot obius$ 变换的 $M\ddot obius$ 变换为 $\sum\limits_{d \mid n}f(d)\tau(n/d)$
+
+   证：题目大致意思是进行两次 mobius 变换。那么第一次 mobius 变换是 $F_1(n)=\sum\limits_{d\mid n}f(d)$ 。
+
+   第二次 mobius 变换就是 $F_2(m) = \sum\limits_{n|m}F_1(n)=\sum\limits_{n\mid m}\sum\limits_{d \mid n}f(d)$ ， 交换求和号得到
+
+   $F_2(m)=\sum\limits_{d\mid m}(\sum\limits_{n\mid m}f(d))$ ，由于 $n\ge d$ ，括号内可化为 $f(d)\tau(m/d)$ ，得证。
+
+2. 求 $\mid \mu(n) \mid$ 的 mobius 变换及 mobius 逆变换
+
+   $\sum\limits_{d\mid n}\mid\mu(n)\mid = 2^{\omega(n)}$ ， $\omega(n)$ 表示 n 的不同的素因数个数
+
+    
+
+## 实例
 
 1. 求 $Liouville$ 函数 $\lambda (n)$ 的 $M\ddot obius$ 变换。
 2. 求 $\mu^2(n)/\phi(n)$ 的 $M\ddot o bius$ 变换。
@@ -34,3 +50,9 @@ $F(n)=\sum \limits_{d\mid n} f(d),n\in N  \cdots(1)$ ，例如
    这叫 $Dirichlet$ 卷积。
 
 3. 设 $F(n)$ 是 $f(n)$ 的 $M\ddot o bius$ 变换，那么，$f(n)$ 是积性函数的充要条件是 $F(n)$ 也是积性函数。
+
+
+
+
+
+{{site.math}}
